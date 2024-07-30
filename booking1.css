@@ -1,0 +1,164 @@
+*{
+    font-family: Montserrat;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+b,input,select,label,ul,span,option{
+    color: black;
+}
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+/* Header styles */
+.nav {
+    background-color: #043c60;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px; /* Add padding to prevent items from touching the edges */
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Push items to the right */
+}
+
+.items a {
+    margin-left: 20px; /* Add space between items */
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .nav {
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    .items {
+        flex-direction: column; /* Stack items vertically */
+        margin-left: 0;
+        margin-top: 10px; /* Add space between items */
+    }
+
+    .items a {
+        margin: 5px 0; /* Adjust spacing for smaller screens */
+    }
+}
+/* Heading styles */
+.HEADING {
+    color: black;
+    margin-top: 2rem; /* Adjusted for better spacing */
+    text-align: center;
+    font-size: 2rem; /* Adjusted for larger screens */
+    font-weight: 700;
+    border-bottom: 5px solid #087dc6;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    padding: 0.5rem 0; /* Added padding for better spacing */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .HEADING {
+        font-size: 1.5rem; /* Decreased font size for smaller screens */
+        margin-top: 1.5rem; /* Adjusted margin for smaller screens */
+    }
+}
+details{
+    width:50%;
+}  
+.features{
+    width: 750px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.phone{
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.phone1{
+    width: 690px;
+}
+.fuel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label{
+    font-size: 0.9rem;
+}
+input{
+    border-color: rgb(188, 184, 184);
+    border-width: 1px;
+    padding: 10px;
+}
+button{
+    background-color: rgb(211, 38, 96);
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 42%;
+    border: none;
+    border-radius: 4px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+    justify-content: space-evenly;
+    padding: 2rem 0; /* Add padding for better spacing */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+        align-items: center; /* Center content vertically */
+    }
+}
+.image {
+    width: 30%;
+    margin-top: 2rem; /* Adjusted for better spacing */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .image {
+        width: 80%; /* Adjusted width for smaller screens */
+        margin-top: 1rem; /* Adjusted margin for smaller screens */
+    }
+}
+.Copyright {
+    background-color: #043c60;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 1rem 0; /* Add padding for better spacing */
+    color: white; /* Adjust text color */
+    font-size: 0.8rem; /* Decrease font size for smaller screens */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .Copyright {
+        font-size: 0.7rem; /* Further decrease font size for smaller screens if needed */
+    }
+}

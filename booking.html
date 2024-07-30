@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>
+            Booking | AutoMob-Mechanic
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="booking.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="nav-bar">
+                    <li class="automob"><a href="home.html"><i class="fa-solid fa-car"></i> AutoMob-Mechanic</a></li>
+                    <input type="checkbox" id="check">
+                    <span class="menu">
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="booking.html">Booking</a></li>
+                        <li>contact@automob.co.in &#9993;</li>
+                        <li>999 999 9999 &#9743;</li>
+                        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    </span>
+                    <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                </ul>
+            </nav>
+        </header>
+        <div class="heading">Book <span class="heading" style="color: rgb(211, 38, 96);">Your</span><span class="heading"> Service</span></div>
+        <br>
+        <div class="content">
+            <div class="details">
+                <form id="form" action="booking-success.html" method="POST" onsubmit="return validateForm(event)">
+                    <label>Name</label>
+                    <input class="features" type="text" id="name" name="name" placeholder="John Dash" required><br>
+                    <label>Email Id</label>
+                    <input class="features" type="email" id="email" name="email" placeholder="john@yahoo.com" required><br>
+                    <label>Phone Number</label><br>
+                    <select class="phone" name="phone-code" required>
+                        <option value="">code</option>
+                        <option value="+213">+213</option>
+                        <option value="+91">+91</option>
+                        <option value="+244">+244</option>
+                        <option value="+61">+61</option>
+                    </select>
+                    <input class="phone phone1" type="number" id="number" name="phone-number" placeholder="9390217344" required>
+                    <br>
+                    <label>Select Service</label>
+                    <select class="features" id="service" name="service" required>
+                        <option value="">--Select--</option>
+                        <option value="Prevention Maintenance Service">Prevention Maintenance Service</option>
+                        <option value="Body Repair Service">Body Repair Service</option>
+                        <option value="Car Care Service">Car Care Service</option>
+                    </select><br>
+                    <label>Car Make</label>
+                    <input class="features" placeholder="Suzuki, Toyota, ..." id="make" name="car-make" required>
+                    <br>
+                    <label>Car Model</label>
+                    <input class="features" placeholder="Alto, Innova, ..." id="model" name="car-model" required>
+                    <br>
+                    <label>Fuel Type</label><br>
+                    <input class="fuel" type="radio" name="fuel-type" value="Petrol" required><span>Petrol </span>  
+                    <input class="fuel" type="radio" name="fuel-type" value="Diesel" required><span>Diesel </span>
+                    <input class="fuel" type="radio" name="fuel-type" value="LPG" required><span>LPG </span> 
+                    <input class="fuel" type="radio" name="fuel-type" value="Others" required><span>Others</span>
+                    <br>
+                    <label>Kilometers Ran</label>
+                    <input class="features" placeholder="...km" id="km" name="kilometers" required>
+                    <label>Appointment Date</label>
+                    <input class="features" type="date" id="appointment-date" name="appointment-date" required>
+                    <div id="error-message" class="error-message" style="color: black;"></div>
+                    <br>
+                    <button class="button1" type="submit">Schedule an Appointment</button>
+                </form>
+            </div>
+            <div class="image">
+                <img src="../automobmechanic/assets/booking.jpg" height="80%" width="100%">
+            </div>
+        </div>
+        <footer>
+            <div class="copyright">
+                <div class="bottom">
+                    <p>Copyright @2020 AutoMob-Mechanic. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="booking.js"></script>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+*{
+    font-family: Montserrat;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-image: url("../automobmechanic/assets/home1.jpg");
+    background-size: cover;
+}
+.automob{
+    margin-left: 10px;
+}
+.nav{
+    background-color:#043c60;
+    height: 6%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.items{
+    margin-left: 620px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.items div{
+    margin-left: 50px;
+}
+.items a:hover{
+    box-sizing:border-box;
+    background-color: rgb(211, 38, 96);
+}
+.content{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    position: relative;
+    top:40%;
+}
+.line1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.line2{
+    font-size: 1rem;
+}
+button{
+    background-color: rgb(211, 38, 96);
+    height: 40px;
+    width: 200px;
+    font-size: 1rem;
+    margin-left: 150px;
+}
+.Copyright{
+    margin-top: 5%;
+    background-color: rgb(4, 60, 96);
+    height:5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+  

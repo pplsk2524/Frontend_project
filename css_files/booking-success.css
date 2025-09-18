@@ -1,0 +1,65 @@
+*{
+    font-family: Montserrat;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+p{
+    color: black;
+    line-height: 30px;
+}
+.automob{
+    margin-left: 10px;
+}
+.nav{
+    background-color:#043c60;
+    height: 6%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.items{
+    margin-left: 620px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.items div{
+    margin-left: 50px;
+}
+.items a:hover{
+    box-sizing:border-box;
+    background-color: rgb(211, 38, 96);
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px;
+    height: 35%;
+}
+.style{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.image{
+    background-color: pink;
+    width: 40%;
+}
+.matter{
+
+    width: 50%;
+}
+.Copyright{
+    margin-top: 5%;
+    background-color: #043c60;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}

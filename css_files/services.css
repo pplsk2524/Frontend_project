@@ -1,0 +1,86 @@
+*{
+    font-family: Montserrat;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+.automob{
+    margin-left: 10px;
+}
+.nav{
+    background-color:#043c60;
+    height: 6%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.items{
+    margin-left: 620px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.items div{
+    margin-left: 50px;
+}
+.items a:hover{
+    box-sizing:border-box;
+    background-color: rgb(211, 38, 96);
+}
+.HEADING{
+    color: black;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-bottom-width: 5px;
+    text-decoration: underline #043c60;
+    text-underline-offset: 5px;
+}
+.matter{
+    margin-top: 30px;
+    color: black;
+    text-align: center;
+    line-height: 25px;
+}
+p{
+    color: black;
+}
+.blocks{
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+    height:40%;
+    width:25%; ;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+.Copyright{
+    background-color: #043c60;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.bold{
+    font-weight: 700;
+    padding: 5px;
+    font-size: 1 rem;
+}
+.bs{
+    text-align: center;
+    background-color: rgb(211, 38, 96);
+    height: 30px;
+    width: 120px;
+    font-size: 15px;
+}
